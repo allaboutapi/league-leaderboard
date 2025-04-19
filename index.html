@@ -86,7 +86,7 @@
 <body>
     <div class="leaderboard">
         <div class="leaderboard-header">
-            IPL 2025 (Match 34)
+            IPL 2025 (Match 35)
         </div>
         <table class="leaderboard-table">
             <thead>
@@ -142,6 +142,11 @@
                     <td>Avinash</td>
                     <td>1</td>
                 </tr>
+                <tr>
+                    <td>10</td>
+                    <td>MITRA2544CD</td>
+                    <td>1</td>
+                </tr>
             </tbody>
         </table>
     </div>
@@ -169,6 +174,7 @@
                     index + 1 === 7 ? 'rank-7' :
                     index + 1 === 8 ? 'rank-8' : 
                     index + 1 === 9 ? 'rank-9' :
+                    index + 1 === 10 ? 'rank-10' :
                     ''
                 );
                 tr.innerHTML = `
@@ -185,13 +191,14 @@
         const leagueData = [
             { name: 'Naren', points: 37 },
             { name: 'Teacher', points: 27 },
-            { name: 'Kunal', points: 17 },
+            { name: 'Kunal', points: 19 },
             { name: 'Sridhar', points: 9 },
-            { name: 'Umesh', points: 24 },
+            { name: 'Umesh', points: 27 },
             { name: 'Manas', points: 29 },
             { name: 'Santosh', points: 18 },
             { name: 'Pragati', points: 29 },
             { name: 'Avinash', points: 16 },
+            { name: 'MITRA2544CD', points: 1 },
         ];
         updateLeaderboard(leagueData);
     </script>
